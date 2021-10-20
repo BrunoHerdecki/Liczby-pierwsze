@@ -9,7 +9,7 @@ namespace Liczby_pierwsze
             Console.WriteLine("ile chcesz wypisac liczb pierwszych?");
             int ile_wypisac = int.Parse(Console.ReadLine());
             int ktora_liczba = 2;
-            Console.WriteLine($"{ile_wypisac} pierwszych licz pierwszych:");
+            Console.WriteLine($"{ile_wypisac} pierwszych liczb pierwszych:");
             while (ile_wypisac > 0)
             {
                 bool jest_pierwsza = true;
